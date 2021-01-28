@@ -10,7 +10,7 @@ const useStyles = createUseStyles((theme: Theme) => ({
     padding: '.5rem .25rem',
     transition: theme.transition,
     borderRadius: theme.borderRadius,
-    fontSize: props => props.size,
+    fontSize: (props: any) => props.size,
     '&:hover': {
       fontWeight: 'bold',
       background: theme.colorPrimary,
@@ -23,7 +23,7 @@ const useStyles = createUseStyles((theme: Theme) => ({
   img: {
     margin: '0 .5rem 0 0',
     transition: theme.transition,
-    height: props => props.size,
+    height: (props: any) => props.size,
   },
   span: {},
 }));

@@ -16,6 +16,7 @@
     "prettier:write": "prettier --config .prettierrc ./**/**.{ts,tsx} --write"
   },
   "dependencies": {
+    "@types/react-jss": "^10.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-jss": "^10.4.0",
